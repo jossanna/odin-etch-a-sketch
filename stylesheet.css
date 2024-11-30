@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: hsl(0, 1%, 27%);
+}
+
+.box {
+  background-color: hsl(0, 93%, 89%);
+  flex-basis: calc(100% / 16);
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
